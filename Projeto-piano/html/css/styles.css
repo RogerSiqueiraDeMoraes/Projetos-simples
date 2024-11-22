@@ -1,4 +1,7 @@
-
+html{
+    height: 50vw;
+    width:50vw;
+}
 .piano{
     box-sizing: border-box;
     margin: 0;
@@ -16,23 +19,25 @@
 .tecla {
     background-color: white;
     border: solid 1px black;
-    width: 90px;
-    height: 600px;
+    width: 112.5px;
+    height: 750px;
     border-radius: 10px;
     display: inline-block;
     padding: 10px;
+    box-shadow: 15px 5px rgba(0, 0, 0, .5);
 }
 .tecla:hover {
     background-color: rgb(240, 240, 240)
 }
 /*Teclas pretas*/
 .tecla-preta {
-    width: 30px;
-    height:300px;
+    width: 37.5px;
+    height:375px;
     background-color: black;
     margin-top: 0;
     margin-left: -30px;
     position: absolute;
+    box-shadow: 5px 5px rgba(0, 0, 0, .5);
 }
 .tecla-preta:hover {
     background-color: rgb(95, 95, 95);
