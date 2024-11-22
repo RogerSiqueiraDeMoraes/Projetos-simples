@@ -24,7 +24,7 @@ html{
     border-radius: 10px;
     display: inline-block;
     padding: 10px;
-    box-shadow: 15px 5px rgba(0, 0, 0, .5);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .5);
 }
 .tecla:hover {
     background-color: rgb(240, 240, 240)
@@ -37,7 +37,7 @@ html{
     margin-top: 0;
     margin-left: -30px;
     position: absolute;
-    box-shadow: 5px 5px rgba(0, 0, 0, .5);
+    
 }
 .tecla-preta:hover {
     background-color: rgb(95, 95, 95);
