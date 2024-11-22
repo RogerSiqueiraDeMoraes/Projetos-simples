@@ -10,7 +10,7 @@
     height:13cm ;
     border-top: 1px solid black;
     margin: 0;
-    
+    user-select: none;
 }
 /*Teclas*/
 .tecla {
